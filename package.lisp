@@ -1,5 +1,5 @@
 ;;;; package.lisp
 
 (defpackage #:disposable
-  (:use #:cl))
-
+  (:use #:cl)
+  (:export :dispose :with-disposable))
